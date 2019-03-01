@@ -64,3 +64,17 @@ h1 {
         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
+.tropical { 
+    text-shadow: fuchsia;
+    text-align: center;
+    text-decoration-color: chartreuse;
+    font-family: 'Just Another Hand',
+    cursive;
+    font-family: 'Pinyon Script',
+    cursive;
+    font-family: 'Italianno',
+    cursive;
+    font-family: 'Cabin Sketch',
+    cursive;
+    font-size: medium;
+}
