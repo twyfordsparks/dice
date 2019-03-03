@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <title>pig dice</title>
+</head>
+
+<body>
+    <div class="container-fluid header">
+        <div class="well">
+            <h1 class="animated tada">PIG DICE</h1>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="animated bounceInRight">Play now!</h1>
+        <div class="new-player">
+            <form id="create-player">
+                <div class="form-group">
+                    <label for="player1-name">Enter Player 1 name</label>
+                    <input type="text" class="form-control" id="player1-name">
+                </div>
+                <div class="form-group">
+                    <label for="player2-name">Enter Player 2 name</label>
+                    <input type="text" class="form-control" id="player2-name">
+                </div>
+                <button type="submit" class="btn btn-success" data-target="#myModal" data-toggle="modal">Play</button>
+            </form>
+        </div>
+        <!--modal-->
+
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Game Play:</h4>
+                    </div>
+                    <div class="well">
+                        <div class="modal-body">
+                            <div class="col1">
+                                <h4>Player: <span class="player1-name"></span></h4>
+
+                                <h5>Dice Roll: <span class="player1-die"></span></h5>
+
+                                <h5>Total Score: <span class="player1-total"></span></h5>
+
+                                <br>
+                                <button type="submit" id="player1-roll" class="btn btn-danger animated rotateIn infinite">Roll</button>
+                                <br>
+                                <button type="submit" id="player1-hold" class="btn btn-primary">Hold</button>
+
+                            </div>
+
+
+                            <div class="col2">
+                                <h4>Player: <span class="player2-name"></span></h4>
+
+                                <h5>Your roll: <span class="player2-rolled-number"></span></h5>
+
+                                <h5>Total Score: <span class="player2-total-score"></span></h5>
+                                <br>
+                                <button type="submit" id="player2-roll" class="btn btn-danger animated rotateIn infinite">Roll</button>
+                                <br>
+                                <button type="submit" id="player2-hold" class="btn btn-primary">Hold</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
