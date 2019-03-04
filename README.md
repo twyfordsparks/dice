@@ -17,8 +17,8 @@ This is a pig dice game.When you roll the dice,the points acquired are added to 
   |    100 points  |   roll dice          |    you win          |
   |                |                      |                     |
   |                |                      |                     |  
-  | 1 point        |    roll dice         | pass the mouse      |
-  |                |                      |                     |  
+  | 1 point        |    roll dice         |you rolled a 1       |
+  |                |                      |   pass the mouse    |  
   |                |                      |                     |
   |   6 points     |    roll dice         |    point added      |                     
   |                |                      |   to previous points|
