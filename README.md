@@ -1,4 +1,4 @@
-# Triangle Tracker
+# Pig Dice Game.
 #### This is a simple pig dice game aimed to put concepts learnt in prototypes and constructors into practise, 04,03,2019
 #### By John Victor Njoroge Karanja
 ## Description
