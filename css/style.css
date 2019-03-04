@@ -68,12 +68,7 @@ h1 {
     text-shadow: fuchsia;
     text-align: center;
     text-decoration-color: chartreuse;
-    font-family: 'Just Another Hand',
-    cursive;
-    font-family: 'Pinyon Script',
-    cursive;
-    font-family: 'Italianno',
-    cursive;
+
     font-family: 'Cabin Sketch',
     cursive;
     font-size: medium;
@@ -84,4 +79,25 @@ h1 {
 .grace {
     background-color: purple;
     float: right;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.van {
+    text-align: center;
+}
+.lap {
+    text-align: center;
+    color: lawngreen;
+}
+.var {
+    color: lawngreen;
 }
