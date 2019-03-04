@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/pexels-photo-965875.jpeg);
+    background-image: url(../images/pexels-photo-1111597.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -17,6 +17,8 @@ h1 {
     font-family: 'Just Another Hand',;
     font-size: xx-large;
     color: lawngreen;
+    font-family: 'Cabin Sketch',
+    cursive;
 }
 .ryan {
     color: purple;
@@ -68,4 +70,15 @@ h1 {
 }
 .v {
     background-color: black;
+}
+.var {
+    color: lawngreen;
+    font-family: 'Srisakdi',
+    cursive;
+}
+.pop {
+    color: red;
+    font-family: 'Playfair Display',
+    serif;
+    
 }
