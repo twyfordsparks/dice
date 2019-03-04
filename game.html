@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Italianno|Just+Another+Hand|Niconne|Pinyon+Script"
@@ -17,71 +14,32 @@
     <title>Pig Dice Game.</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="animated bounceInRight">Play now!</h1>
-        <div class="new-player">
-            <form id="create-player">
-                <div class="form-group eric">
-                    <label for="player1-name">Enter Player 1 name</label>
-                    <input type="text" class="form-control" id="player1-name">
-                </div>
-                <div class="form-group eric">
-                    <label for="player2-name">Enter Player 2 name</label>
-                    <input type="text" class="form-control" id="player2-name">
-                </div>
-                <button type="submit" class="btn btn-success" data-target="#myModal" data-toggle="modal">Play</button>
-            </form>
-        </div>
-
-        <div id="myModal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Game Play:</h4>
-                    </div>
-                    <div class="well">
-                        <div class="modal-body">
-                            <div class="col1">
-                                <h4>Player: <span class="player1-name"></span></h4>
-
-                                <h5>Dice Roll: <span class="player1-die"></span></h5>
-
-                                <h5>Total Score: <span class="player1-total"></span></h5>
-
-                                <br>
-                                <button type="submit" id="player1-roll" class="btn btn-danger animated rotateIn infinite">Roll</button>
-                                <br>
-                                <button type="submit" id="player1-hold" class="btn btn-primary">Hold</button>
-
-                            </div>
-
-
-                            <div class="col2">
-                                <h4>Player: <span class="player2-name"></span></h4>
-
-                                <h5>Your roll: <span class="player2-rolled-number"></span></h5>
-
-                                <h5>Total Score: <span class="player2-total-score"></span></h5>
-                                <br>
-                                <button type="submit" id="player2-roll" class="btn btn-danger animated rotateIn infinite">Roll</button>
-                                <br>
-                                <button type="submit" id="player2-hold" class="btn btn-primary">Hold</button>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="modal-footer">
-
-                    </div>
-
-                </div>
+    <h1 class="glow">Welcome to pig dice</h1>
+    <div class="row eric">
+        <div class="column">
+            <div class="eric jumbotron f">
+                <p class="ryan glow ">Player 1</p>
+                <p>Die side:</p>
+                <p>Roll score:</p>
+                <p>Total score:</p>
+    <button type="button" class="p">Roll dice!</button>
+    <button type="button" class="p">Hold</button>
+            </div>
+    </div>
+        <div class="column">
+            <div class="john jumbotron button">
+                <p class="ryan glow">Player 2</p>
+                <p>Die side:</p>
+                <p>Roll score:</p>
+                <p>Total score:</p>
+        <button type="button" class="f">Roll dice!</button>
+        <button type="button" class="f">Hold</button>
             </div>
         </div>
     </div>
-
+    <div class="j">
+        <button type="button" class="glow v">Restart Game!</button>
     </div>
+
 </body>
 </html>
