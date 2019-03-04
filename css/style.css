@@ -78,3 +78,10 @@ h1 {
     cursive;
     font-size: medium;
 }
+.ryan {
+    background-color: lawngreen;
+}
+.grace {
+    background-color: purple;
+    float: right;
+}
