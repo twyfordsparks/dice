@@ -1,45 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Italianno|Just+Another+Hand|Niconne|Pinyon+Script"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Srisakdi" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/Bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/Styles.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pig Dice Game.</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+   
 </head>
+
 <body>
-    <h1 class="glow">Welcome to pig dice</h1>
-    <div class="row eric">
-        <div class="column">
-            <div class="eric jumbotron f">
-                <p class="ryan glow ">Player 1</p>
-                <p>Die side:</p>
-                <p>Roll score:</p>
-                <p>Total score:</p>
-    <button type="button" class="p">Roll dice!</button>
-    <button type="button" class="p">Hold</button>
-            </div>
+
+    
+    <div class="container text-center">
+
+        <h1 id="top"class="var">PIG-DICE</h1>
+
+
+        
+<div class="row jumbotron" id="players">
+    <div class="column" id="player1">
+            <h3 class="var"><span class="player">Player 1</span> <br><br><span id="g1"></span></h3>
     </div>
-        <div class="column">
-            <div class="john jumbotron button">
-                <p class="ryan glow">Player 2</p>
-                <p>Die side:</p>
-                <p>Roll score:</p>
-                <p>Total score:</p>
-        <button type="button" class="f">Roll dice!</button>
-        <button type="button" class="f">Hold</button>
-            </div>
+    <div class="column" id="p2">
+            <h3 class="var"><span class="player">Player 2</span> <br><br><span id="g2"></span></h3>
+    </div>
+</div>
+<div class="lap">
+    <div class="row">
+        <div class="pop" id="myroll">
+            <h3>Roll Total: <span id="grace"></span></h3>
+            <h3>Current Roll: <span id="roll"></span></h3>
+            </br>
         </div>
     </div>
-    <div class="j">
-        <button type="button" class="glow v">Restart Game!</button>
-    </div>
 
+    <div class="row">
+        <div class="">
+            <form id="roll">
+                <button type="submit" class="glow">Roll</button>
+            </form>
+        </div>
+        <div>
+            <form id="end-turn">
+                <button type="submit" class="glow"> Hold</button>
+                <div></div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
+<script src="js/scripts.js"></script>
+
 </html>
