@@ -6,7 +6,7 @@ This is a pig dice game.When you roll the dice,the points acquired are added to 
 ## Setup/Installation Requirements
 * A secure working internet connection.
 * A laptop or a desktop or any device you can use to access the internet
-* A link to the website's programme which you will be recieving shortly.[link]()
+* A link to the website's programme which you will be recieving shortly.[link](https://twyfordsparks.github.io/dice/)
 
 
 ## Project's BDD
